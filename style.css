@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+	border: 1px solid red;
+}
+html {
+	font-size: 18px;
+}
+main {
+	max-width: 375px;
+	margin: auto;
+	font-family: 'Poppins';
+}
+
+img {
+	max-width: 150px;
+}
+
+h1 {
+	font-family: 'PT Serif';
+	font-weight: 700;
+}
+figure {
+	width: 50%;
+
+}
+
+figure:nth-child(2n) {
+	margin-top: 60px;
+}
+figcaption {
+	font-weight: 600;
+}
+#middle {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.title {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  transform: rotate(90deg);
+  float: right;
+  text-transform: uppercase;
+  font-weight: 400;
+}
